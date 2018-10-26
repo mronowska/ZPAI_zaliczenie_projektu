@@ -1,0 +1,22 @@
+
+
+.navbar-laravel {
+  background-color: #3366CC;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.gallery{
+  margin: 10px 50px;
+}
+
+.gallery img{
+  width:230px;
+  padding:5px;
+  filter: grayscale(100%);
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
